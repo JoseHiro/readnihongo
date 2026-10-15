@@ -1,0 +1,13 @@
+:root { --bg: #f9f6f1; --card: #fffffe; --text: #171719; --sub: #707073; --line: #e6e2db; }
+@media (prefers-color-scheme: dark) { :root { --bg: #14161a; --card: #1f2228; --text: #f0f0eb; --sub: #9e9ea3; --line: #2c3038; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.7 -apple-system, "Hiragino Sans", "Helvetica Neue", sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+header { display: flex; align-items: center; gap: 12px; margin-bottom: 24px; }
+header img { width: 48px; height: 48px; border-radius: 11px; }
+h1 { font-size: 26px; margin: 0; }
+h2 { font-size: 20px; margin: 32px 0 8px; padding-top: 16px; border-top: 1px solid var(--line); }
+nav a, a { color: var(--text); }
+nav { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 24px; font-size: 14px; }
+.updated { color: var(--sub); font-size: 14px; }
+section { background: var(--card); border-radius: 16px; padding: 4px 20px 16px; margin-top: 16px; }
